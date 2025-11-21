@@ -11,17 +11,17 @@ I started my home network while at university with a Raspberry Pi. As I learned 
 ---
 
 ## Current State
-- Network is up and running with VLANs, though I still need to implement proper ACLs.  
-- Server is fully operational, including iDRAC, and supports spinning up and SSH access to VMs.  
-
-I am focusing on getting applications up and running.  
+- Network finished except for proper ACLs.  
+- Server is fully operational
+- Pi-Hole is up. Other apps and documentation is being worked on
+- SOC is being setup
 
 ---
 
 ## Documentation
 - [Network Architecture](/docs/Network-Architecture.md) – Details network design and topology  
 - [Server Setup](/docs/Server-Setup.md) – Installation steps, config, and deployment notes  
-- [Services](/docs/Services.md) – Overview of applications hosted on the server  
+- [jumpbox](/docs/AdminBox.md) – Walkthrough setting up the admin jump box for the managment network (working progress)
 
 **Resources**  
 - `/docs/`  
